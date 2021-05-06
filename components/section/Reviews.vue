@@ -10,11 +10,11 @@
 					</h2>
 					<p class="md:max-w-xl">{{ reviews.description }}</p>
 				</div>
-				<div class="section-reviews--title font-black text-right uppercase text-xl absolute right-0 bottom-0">REVIEWS.</div>
+				<div class="section-title white font-black text-right uppercase text-xl absolute right-0 bottom-0">REVIEWS.</div>
 			</div>
 
 			<div class="md:flex -mx-5">
-				<div class="md:w-2/5 px-5 flex flex-shrink-0 hidden lg:block">
+				<div class="md:w-2/5 px-5 flex-shrink-0 hidden lg:block">
 					<img
 						:src="reviews.thumbnail" class="rounded bg-blue-200 w-full md:mb-0 mb-4" />
 				</div>
@@ -24,7 +24,7 @@
 							class="md:w-1/2 mb-5 px-5"
 							v-for="colleague in reviews.colleague" :key="colleague.id"
 						>
-							<div class="p-5 bg-gray-900 text-white rounded">
+							<div class="p-8 text-gray-900 rounded-xl bg-white shadow-2xl">
 								<i class="lnr lnr-pushpin block text-center mb-5 text-5xl"></i>
 								<blockquote
 									class="text-center leading-relaxed text-sm font-thin italic"
@@ -64,13 +64,3 @@ export default {
 	}
 };
 </script>
-
-<style lang="scss">
-	.section-reviews {
-		&--title {
-			font-size: 90px;
-			line-height: 0.65;
-			color: rgba(#2d3748, .05);
-		}
-	}
-</style>

@@ -10,7 +10,7 @@
 					</h2>
 					<div class="md:max-w-xl font-thin" v-html="$md.render(services.description)"></div>
 				</div>
-				<div class="section-services--title font-black text-right uppercase text-xl absolute right-0 bottom-0">SERVICES.</div>
+				<div class="section-title white font-black text-right uppercase text-xl absolute right-0 bottom-0">SERVICES.</div>
 			</div>
 			<div
 				v-if="services.service"
@@ -52,11 +52,6 @@ export default {
 
 <style lang="scss">
 	.section-services {
-		&--title {
-			font-size: 90px;
-			line-height: 0.65;
-			color: rgba(255, 255, 255, .05);
-		}
 		&--icon {
 			height: 2rem;
 			width: 2rem;

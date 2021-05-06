@@ -29,3 +29,16 @@ body {
 .btn {
 	letter-spacing: 6px;
 }
+
+.section-title {
+	font-size: 90px;
+	line-height: 0.65;
+
+	&.black {
+		color: rgba(#060039, .1);
+	}
+
+	&.white {
+		color: rgba(#ffffff, .1);
+	}
+}

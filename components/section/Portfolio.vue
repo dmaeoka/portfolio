@@ -12,7 +12,7 @@
 						{{ portfolio.description }}
 					</p>
 				</div>
-				<div class="section-portfolio--title font-black text-right uppercase text-xl absolute right-0 bottom-0">Portfolio.</div>
+				<div class="section-title black font-black text-right uppercase text-xl absolute right-0 bottom-0">Portfolio.</div>
 			</div>
 			<div class="flex flex-no-wrap -mx-2 overflow-x-auto">
 				<div

@@ -11,7 +11,7 @@
 					</h2>
 					<p class="md:max-w-xl">{{ contact.description }}</p>
 				</div>
-				<div class="section-contact--title font-black text-right uppercase text-xl absolute right-0 bottom-0">CONTACT.</div>
+				<div class="section-title black font-black text-right uppercase text-xl absolute right-0 bottom-0">CONTACT.</div>
 			</div>
 			<div class="flex -mx-5">
 				<div class="lg:w-2/5 w-full px-5 lg:flex md:order-1 order-2 hidden">
@@ -30,7 +30,7 @@
 							<div class="md:w-1/2 px-5 mb-5">
 								<label for="first-name" class="sr-only">First name:</label>
 								<input
-									class="h-16 border-b-2 focus:border-teal-500 border-gray-900 block w-full font-bold uppercase outline-none"
+									class="h-16 border-b-2 focus:border-teal-500 border-gray-900 focus:border-green-500 block w-full font-bold uppercase outline-none"
 									name="firstName"
 									type="text"
 									placeholder="First Name" />
@@ -38,7 +38,7 @@
 							<div class="md:w-1/2 px-5 mb-5">
 								<label for="last-name" class="sr-only">Last name:</label>
 								<input
-									class="h-16 border-b-2 focus:border-teal-500 border-gray-900 block w-full font-bold uppercase outline-none"
+									class="h-16 border-b-2 focus:border-teal-500 border-gray-900 focus:border-green-500 block w-full font-bold uppercase outline-none"
 									name="lastName"
 									type="text"
 									placeholder="Last Name" />
@@ -46,7 +46,7 @@
 							<div class="md:w-1/2 px-5 mb-5">
 								<label for="email" class="sr-only">E-mail:</label>
 								<input
-									class="h-16 border-b-2 focus:border-teal-500 border-gray-900 block w-full font-bold uppercase outline-none"
+									class="h-16 border-b-2 focus:border-teal-500 border-gray-900 focus:border-green-500 block w-full font-bold uppercase outline-none"
 									name="email"
 									required
 									pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
@@ -56,7 +56,7 @@
 							<div class="md:w-1/2 px-5 mb-5">
 								<label for="city" class="sr-only">Where are you from:</label>
 								<input
-									class="h-16 border-b-2 focus:border-teal-500 border-gray-900 block w-full font-bold uppercase outline-none"
+									class="h-16 border-b-2 focus:border-teal-500 border-gray-900 focus:border-green-500 block w-full font-bold uppercase outline-none"
 									name="city"
 									type="text"
 									placeholder="where are you from?" />
@@ -64,14 +64,14 @@
 							<div class="w-full px-5 mb-5">
 								<label for="name" class="sr-only">Message:</label>
 								<textarea
-									class="h-48 border-b-2 focus:border-teal-500 border-gray-900 block w-full font-bold uppercase outline-none"
+									class="h-48 border-b-2 focus:border-teal-500 border-gray-900 focus:border-green-500 block w-full font-bold uppercase outline-none"
 									name="message"
 									placeholder="Enter Your Message"
 									required></textarea>
 							</div>
 							<div class="w-full px-5 text-right">
 								<input
-									class="font-display text-xs uppercase bg-red-600 rounded text-white inline-block py-4 px-8 btn cursor-pointer hover:bg-red-700"
+									class="font-display text-xs uppercase bg-red-600 hover:bg-red-900 rounded-full text-white inline-block py-4 px-8 btn"
 									type="submit"
 									value="Send Message" />
 							</div>

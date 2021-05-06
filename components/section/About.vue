@@ -1,5 +1,5 @@
 <template>
-	<section id="section-about" class="section-about bg-cover bg-no-repeat bg-white text-gray-900 relative min-h-screen">
+	<section id="section-about" class="section-about md:bg-cover bg-contain bg-no-repeat bg-white text-gray-900 relative min-h-screen">
 		<!-- <DiagonalLine colour="text-white" /> -->
 		<div class="container pb-24">
 			<h2 class="section-about--title font-black text-center uppercase">About me</h2>
@@ -85,11 +85,19 @@ export default {
 
 	.section-about {
 		background-image: url("/uploads/bg-2.svg");
-		background-position: 100% 110%;
+		background-position: 0% 100%;
+
+		@media (min-width: 768px) {
+			background-position: -9.6rem 0px;
+		}
 
 		&--title {
-			font-size: 90px;
-			color: rgba(51, 51, 51, .1);
+			font-size: 60px;
+			color: rgba(#060039, .1);
+
+			@media (min-width: 768px) {
+				font-size: 90px;
+			}
 		}
 
 		&--intro {

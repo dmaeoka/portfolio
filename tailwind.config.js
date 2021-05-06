@@ -6,6 +6,7 @@
 */
 module.exports = {
 	prefix: '',
+	purge: false,
 	theme: {
 		fontFamily: {
 			display: ['Titillium Web', 'sans-serif'],
@@ -22,12 +23,12 @@ module.exports = {
 			gray: {
 				100: '#F0F1F1',
 				200: '#edf2f7',
-				300: '#e2e8f0',
+				300: '#DFDFDF',
 				400: '#cbd5e0',
 				500: '#a0aec0',
 				600: '#718096',
 				700: '#4a5568',
-				800: '#2d3748',
+				800: '#2D374C',
 				900: '#060039',
 			},
 			red: {
