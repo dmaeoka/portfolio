@@ -5,7 +5,7 @@
 			<div class="section-contact--boxTitle flex flex-wrap mb-10 relative">
 				<div class="flex-1">
 					<h2
-						class="font-display capitalize font-bold leading-none text-4xl text-gray-700 pb-4">
+						class="font-display capitalize font-bold leading-none text-4xl pb-4">
 						{{ contact.title }}
 						<Zigzag />
 					</h2>
@@ -71,7 +71,7 @@
 							</div>
 							<div class="w-full px-5 text-right">
 								<input
-									class="font-display text-xs uppercase bg-red-600 hover:bg-red-900 rounded-full text-white inline-block py-4 px-8 btn"
+									class="font-display text-xs uppercase bg-red-600 hover:bg-red-900 rounded-full text-white inline-block py-4 px-8 btn cursor-pointer"
 									type="submit"
 									value="Send Message" />
 							</div>

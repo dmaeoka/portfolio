@@ -33,12 +33,13 @@ body {
 .section-title {
 	font-size: 90px;
 	line-height: 0.65;
+	cursor: default;
 
 	&.black {
-		color: rgba(#060039, .1);
+		color: rgba(#060039, .06);
 	}
 
 	&.white {
-		color: rgba(#ffffff, .1);
+		color: rgba(#ffffff, .2);
 	}
 }

@@ -85,7 +85,7 @@ export default {
 
 	.section-about {
 		background-image: url("/uploads/bg-2.svg");
-		background-position: 0% 100%;
+		background-position: 0% 109%;
 
 		@media (min-width: 768px) {
 			background-position: -9.6rem 0px;

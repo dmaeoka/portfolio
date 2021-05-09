@@ -4,7 +4,7 @@
 		<div class="container xl:px-0 px-5 py-16">
 			<div class="section-reviews--boxTitle md:flex flex-wrap mb-10 relative">
 				<div class="flex-1">
-					<h2 class="font-display capitalize font-bold leading-none text-4xl text-gray-700 pb-4">
+					<h2 class="font-display capitalize font-bold leading-none text-4xl pb-4">
 						{{ reviews.title }}
 						<Zigzag />
 					</h2>
@@ -16,7 +16,8 @@
 			<div class="md:flex -mx-5">
 				<div class="md:w-2/5 px-5 flex-shrink-0 hidden lg:block">
 					<img
-						:src="reviews.thumbnail" class="rounded bg-blue-200 w-full md:mb-0 mb-4" />
+						:src="reviews.thumbnail"
+						class="rounded bg-blue-200 w-full md:mb-0 mb-4" />
 				</div>
 				<div class="px-5 flex">
 					<div class="md:flex flex-wrap -mx-5 -mb-5">
@@ -27,8 +28,7 @@
 							<div class="p-8 text-gray-900 rounded-xl bg-white shadow-2xl">
 								<i class="lnr lnr-pushpin block text-center mb-5 text-5xl"></i>
 								<blockquote
-									class="text-center leading-relaxed text-sm font-thin italic"
-									style="letter-spacing: .5px"
+									class="text-center leading-relaxed italic review"
 									v-html="$md.render(colleague.review)"></blockquote>
 								<div class="flex border-t border-gray-700 mt-5 pt-5">
 									<img
@@ -64,3 +64,9 @@ export default {
 	}
 };
 </script>
+
+<style lang="scss">
+	.review {
+		letter-spacing: .5px;
+	}
+</style>

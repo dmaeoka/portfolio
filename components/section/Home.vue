@@ -1,7 +1,7 @@
 <template>
 	<section
 		id="section-home"
-		class="section-home md:bg-cover bg-contain bg-fixed bg-no-repeat relative h-screen flex flex-col justify-center"
+		class="section-home md:bg-cover bg-contain bg-fixed bg-no-repeat relative md:h-screen flex flex-col justify-center"
 		v-waypoint="{ active: true, callback: onWaypoint, options: intersectionOptions }"
 	>
 		<div class="section-home--intro max-w-4xl px-3 relative z-10 m-auto">
@@ -46,8 +46,8 @@ export default {
 <style lang="scss">
 	.section-home {
 		background-image: url("/uploads/bg.svg");
-		background-position: 0% 0%;
-		min-height: 500px;
+		background-position: 100% 0%;
+		min-height: calc(100vh - 5rem);
 		@media (min-width: 768px) {
 			background-position: 100% 110%;
 		}
